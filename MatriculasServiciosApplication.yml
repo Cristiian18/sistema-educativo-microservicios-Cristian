@@ -6,7 +6,7 @@ spring:
     name: matriculas-servicio
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/matriculasdb
+    url: jdbc:mysql://localhost:3307/db_matriculas
     username: root
     password: Arauca2024**
   jpa:
