@@ -5,7 +5,7 @@ spring:
   application:
     name: asignaturas-servicio
   datasource:
-    url: jdbc:mysql://localhost:3307/asignaturasdb
+    url: jdbc:mysql://localhost:3307/db_asignaturas
     username: root
     password: Arauca2024**
   jpa:
