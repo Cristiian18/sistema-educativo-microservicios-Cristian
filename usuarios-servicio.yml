@@ -1,0 +1,25 @@
+server:
+  port: 0 # Puerto aleatorio para evitar conflictos
+
+spring:
+  application:
+    name: servicio-usuarios
+  datasource:
+    url: jdbc:mysql://localhost:3307/usuariosdb
+    username: root
+    password: Arauca2024**
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
+  jmx:
+    enabled: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+  instance:
+    prefer-ip-address: true
