@@ -5,7 +5,7 @@ spring:
   application:
     name: servicio-usuarios
   datasource:
-    url: jdbc:mysql://localhost:3307/db_usuarios
+    url: jdbc:mysql://localhost:3309/db_usuarios
     username: root
     password: Arauca2024**
   jpa:
