@@ -1,6 +1,7 @@
 server:
   port: 0 # Aleatorio para balanceo o evitar conflictos
-
+security:
+  token: TOKEN_DE_PRUEBA_ABC123
 spring:
   application:
     name: matriculas-servicio
