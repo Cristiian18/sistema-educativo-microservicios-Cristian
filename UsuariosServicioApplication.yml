@@ -16,7 +16,8 @@ spring:
       hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
   jmx:
     enabled: false
-
+jwt:
+  secret: claveSuperSecretaParaFirmarTokensJWT123456789
 eureka:
   client:
     service-url:
