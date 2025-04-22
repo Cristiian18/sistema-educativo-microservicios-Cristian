@@ -17,7 +17,8 @@ spring:
 
 security:
   token: TOKEN_DE_PRUEBA_ABC123
-
+jwt:
+  secret: claveSuperSecretaParaFirmarTokensJWT123456789
 eureka:
   client:
     service-url:
