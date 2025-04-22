@@ -30,5 +30,12 @@ eureka:
   instance:
     prefer-ip-address: true
 
+asignaturas:
+  token: TOKEN_DE_PRUEBA_ABC123
+
+security:
+  token:
+    asignaturas: TOKEN_DE_PRUEBA_ABC123
+
 jwt:
   secret: claveSuperSecretaParaFirmarTokensJWT123456789
