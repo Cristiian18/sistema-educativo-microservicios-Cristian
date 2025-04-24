@@ -4,12 +4,12 @@
 Sistema educativo basado en microservicios para la gestión de estudiantes, profesores, asignaturas y matrículas. Implementado con Spring Boot y arquitectura de microservicios.
 
 ##  Características Principales
-- ✅ Gestión completa de usuarios (estudiantes, profesores, administradores)
-- ✅ Control de asignaturas y matrículas
-- ✅ Autenticación JWT
-- ✅ Arquitectura de microservicios
-- ✅ Configuración centralizada
-- ✅ Service Discovery con Eureka
+-  Gestión completa de usuarios (estudiantes, profesores, administradores)
+-  Control de asignaturas y matrículas
+-  Autenticación JWT
+-  Arquitectura de microservicios
+-  Configuración centralizada
+-  Service Discovery con Eureka
 
 ## Tecnologías Utilizadas
 - Java 17
