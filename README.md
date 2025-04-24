@@ -1,9 +1,9 @@
-# Sistema Educativo Microservicios 🎓
+# Sistema Educativo Microservicios 
 
-## 📋 Descripción
+##  Descripción
 Sistema educativo basado en microservicios para la gestión de estudiantes, profesores, asignaturas y matrículas. Implementado con Spring Boot y arquitectura de microservicios.
 
-## 🚀 Características Principales
+##  Características Principales
 - ✅ Gestión completa de usuarios (estudiantes, profesores, administradores)
 - ✅ Control de asignaturas y matrículas
 - ✅ Autenticación JWT
@@ -11,7 +11,7 @@ Sistema educativo basado en microservicios para la gestión de estudiantes, prof
 - ✅ Configuración centralizada
 - ✅ Service Discovery con Eureka
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - Java 17
 - Spring Boot 3.x
 - Spring Cloud
@@ -20,7 +20,7 @@ Sistema educativo basado en microservicios para la gestión de estudiantes, prof
 - JWT
 - Maven
 
-## 🏗️ Arquitectura
+##  Arquitectura
 El sistema está compuesto por los siguientes microservicios:
 
 - Servicio de Usuarios (Puerto: 9083)
@@ -29,13 +29,13 @@ El sistema está compuesto por los siguientes microservicios:
 - Eureka Server (Puerto: 9080)
 - Config Server (Puerto: 9888)
 
-## 📦 Requisitos Previos
+##  Requisitos Previos
 - Java 17 o superior
 - Docker y Docker Compose
 - Maven
 - Git
 
-## 🚀 Instalación y Ejecución
+##  Instalación y Ejecución
 
 ### 1. Clonar el repositorio
 ```bash
@@ -60,7 +60,7 @@ mvn clean package
 docker-compose up -d
 ```
 
-## 📌 Puertos y Servicios
+##  Puertos y Servicios
 
 | Servicio | Puerto |
 |----------|--------|
@@ -73,7 +73,7 @@ docker-compose up -d
 | MySQL Matrículas | 3308 |
 | MySQL Usuarios | 3309 |
 
-## 🔒 Seguridad
+##  Seguridad
 El sistema utiliza JWT (JSON Web Tokens) para la autenticación. Para acceder a los endpoints protegidos:
 
 ### Obtener token mediante login:
@@ -90,7 +90,7 @@ POST /api/auth/login
 Authorization: Bearer <token>
 ```
 
-## 📚 Documentación API
+##  Documentación API
 
 ### Endpoints principales:
 
